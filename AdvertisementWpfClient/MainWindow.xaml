@@ -1,0 +1,17 @@
+﻿<Window x:Class="AdvertisementWpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdvertisementWpfClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <Button Content="Get Average Cost" Click="GetAverageCost_Click" Margin="0,0,0,10"/>
+            <Button Content="Get Advertisements Above Cost" Click="GetAdvertisementsAboveCost_Click" Margin="0,0,0,10"/>
+            <Button Content="Get Most Popular Broadcasts" Click="GetMostPopularBroadcasts_Click" Margin="0,0,0,10"/>
+            <TextBlock Name="ResultTextBlock" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
